@@ -1,0 +1,27 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 467 463">
+<title>icons</title>
+
+  <defs>
+    <style>
+      @keyframes appear {
+        0% {fill-opacity: 1}
+        100% {fill-opacity: 0}
+      }
+
+      #Camera:hover {
+        fill-opacity: .3;
+        fill:blue;
+        stroke: blue;
+        perspective:1400px;
+        animation-name: appear;
+        animation-duration: .5s;
+        animation-iteration-count: 1;
+      }
+
+    </style>
+  </defs>
+<g id="Camera">
+<rect x="122.5" y="150.5" width="34" height="19" fill="#231f20"/>
+<path d="M274.59,170.14,267.9,142.5H201.05l-5.73,27.64H112.23V311H355.77V170.14ZM234.46,283.41a44,44,0,1,1,44-44A44,44,0,0,1,234.46,283.41Zm107-78.91h-36v-19h36Z" fill="#231f20"/>
+</g>
+</svg>
